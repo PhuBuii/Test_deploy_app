@@ -12,7 +12,7 @@ services:
     build: ./server
     container_name: mern-api
     restart: always
-    env_file: .env
+    env_file: ./server/.env
     environment:
       - NODE_ENV=production
     ports:
